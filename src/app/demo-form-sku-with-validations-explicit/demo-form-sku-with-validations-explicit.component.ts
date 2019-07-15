@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
 
 @Component({
-  selector: 'app-demo-form-sku-with-builder',
-  templateUrl: './demo-form-sku-with-builder.component.html',
-  styleUrls: ['./demo-form-sku-with-builder.component.css']
+  selector: 'app-demo-form-sku-with-validations-explicit',
+  templateUrl: './demo-form-sku-with-validations-explicit.component.html',
+  styleUrls: ['./demo-form-sku-with-validations-explicit.component.css']
 })
-export class DemoFormSkuWithBuilderComponent implements OnInit {
+export class DemoFormSkuWithValidationsExplicitComponent implements OnInit {
   myForm: FormGroup;
   sku: AbstractControl;
 
